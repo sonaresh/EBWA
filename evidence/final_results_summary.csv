@@ -1,0 +1,40 @@
+profile,metric,value,unit,notes
+fresh,A_p95,1.947,ms,10k logical scale
+fresh,D_p95,3.224,ms,10k logical scale
+fresh,D_minus_A_p95,1.276,ms,aggregate p95 difference
+fresh,D_SDO95_paired,2.172,ms,paired D-A p95
+fresh,D_serial_rate,257.9,decisions_per_s,serialized service rate
+fresh,D_cache_hit,0.0,percent,fresh profile
+fresh,D_EBAR,1.0,ratio,full binding
+cached_high_reuse,A_p95,2.212,ms,10k logical scale
+cached_high_reuse,D_p95,2.444,ms,10k logical scale
+cached_high_reuse,D_minus_A_p95,0.232,ms,aggregate p95 difference
+cached_high_reuse,D_SDO95_paired,1.255,ms,paired D-A p95
+cached_high_reuse,D_serial_rate,343.4,decisions_per_s,serialized service rate
+cached_high_reuse,D_cache_hit,95.4,percent,bounded hot working set
+cached_high_reuse,D_EBAR,1.0,ratio,full binding
+cached_large_working_set,A_p95,3.925,ms,10k logical scale
+cached_large_working_set,D_p95,5.466,ms,10k logical scale
+cached_large_working_set,D_minus_A_p95,1.542,ms,aggregate p95 difference
+cached_large_working_set,D_SDO95_paired,2.934,ms,paired D-A p95
+cached_large_working_set,D_serial_rate,141.3,decisions_per_s,serialized service rate
+cached_large_working_set,D_cache_hit,2.96,percent,full 10k working set
+cached_large_working_set,D_EBAR,1.0,ratio,full binding
+drift,events,200,count,explicit posture-drift events
+drift,mean_revocation_delay,4.344,ms,
+drift,p50_revocation_delay,4.040,ms,
+drift,p95_revocation_delay,6.316,ms,
+drift,p99_revocation_delay,8.486,ms,
+drift,NDE,0.00434,ratio,1.0 s normalization window per event
+kind,security_assertions_passed,11,count,11 of 11 expected outcomes
+kind,security_assertions_total,11,count,
+aws_ekwa_east,repetitions,500,count,server-side authorization timing
+aws_ekwa_east,p50,0.908,ms,server latency
+aws_ekwa_east,p95,1.317,ms,server latency
+aws_ekwa_east,p99,2.705,ms,server latency
+aws_ekwa_west,repetitions,500,count,server-side authorization timing
+aws_ekwa_west,p50,0.909,ms,server latency
+aws_ekwa_west,p95,1.234,ms,server latency
+aws_ekwa_west,p99,2.237,ms,server latency
+aws,security_assertions_passed,11,count,11 of 11 expected outcomes
+aws,security_assertions_total,11,count,
