@@ -47,13 +47,15 @@ Headline results:
 - ebwa-west server latency: p50 0.909 ms; p95 1.234 ms; p99 2.237 ms
 - Client kubectl port-forward RTT is excluded from the authorization-latency claim
 
-## Raw evidence archives
+## Public evidence archives
 
-The following raw archives should be uploaded from the experiment workstation before using this repository URL as the journal's final research-data link:
+The final public evidence package contains:
 
-- `local-10k-final/` or a ZIP containing raw_latency.csv, latency_summary.csv, drift_results.csv, and the recovered benchmark JSON
-- `EBWA-kind-v1.3-evidence.zip`
-- `EBWA-AWS-v1.4-evidence.zip`
-- EBWA v1.4.0 source/prototype archive
+- `local/EBWA-local-10k-final-evidence.zip` — final local 10k benchmark, recovered complete-trial data, large-working-set run, and drift/revocation evidence
+- `kind/EBWA-kind-v1.3-evidence.zip` — two-cluster Kubernetes validation evidence
+- `aws/EBWA-AWS-v1.4-evidence.zip` — Amazon EKS external-validation evidence
+- `final_results_summary.csv` — compact manuscript-level results table
 
-Generated private keys, runtime secrets, local databases, and cloud credentials must not be uploaded.
+The sanitized source/prototype package is stored at `../prototype/EBWA_v1.4.0_public_artifact.zip`.
+
+Generated private keys, runtime secrets, local databases, cloud credentials, and temporary kubeconfig material are intentionally excluded. Integrity hashes are listed in the repository-root `SHA256SUMS.txt`.
