@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the EBWA manuscript and this repository."
+title: "EBWA: Evidence-Bound Workload Authorization Research Artifact"
+type: software
+authors:
+  - family-names: Somara
+    given-names: Naresh
+    orcid: https://orcid.org/0009-0008-4997-3133
+version: 1.4.0
+date-released: 2026-10-03
+repository-code: https://github.com/sonaresh/EBWA
+url: https://github.com/sonaresh/EBWA
