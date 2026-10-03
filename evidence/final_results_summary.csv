@@ -28,13 +28,13 @@ drift,p99_revocation_delay,8.486,ms,
 drift,NDE,0.00434,ratio,1.0 s normalization window per event
 kind,security_assertions_passed,11,count,11 of 11 expected outcomes
 kind,security_assertions_total,11,count,
-aws_ekwa_east,repetitions,500,count,server-side authorization timing
-aws_ekwa_east,p50,0.908,ms,server latency
-aws_ekwa_east,p95,1.317,ms,server latency
-aws_ekwa_east,p99,2.705,ms,server latency
-aws_ekwa_west,repetitions,500,count,server-side authorization timing
-aws_ekwa_west,p50,0.909,ms,server latency
-aws_ekwa_west,p95,1.234,ms,server latency
-aws_ekwa_west,p99,2.237,ms,server latency
+aws_ebwa_east,repetitions,500,count,server-side authorization timing
+aws_ebwa_east,p50,0.908,ms,server latency
+aws_ebwa_east,p95,1.317,ms,server latency
+aws_ebwa_east,p99,2.705,ms,server latency
+aws_ebwa_west,repetitions,500,count,server-side authorization timing
+aws_ebwa_west,p50,0.909,ms,server latency
+aws_ebwa_west,p95,1.234,ms,server latency
+aws_ebwa_west,p99,2.237,ms,server latency
 aws,security_assertions_passed,11,count,11 of 11 expected outcomes
 aws,security_assertions_total,11,count,
